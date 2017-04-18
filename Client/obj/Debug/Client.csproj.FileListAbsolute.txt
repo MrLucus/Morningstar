@@ -1,0 +1,5 @@
+E:\dotNet\UDPServer\Client\bin\Debug\Client.exe.config
+E:\dotNet\UDPServer\Client\bin\Debug\Client.exe
+E:\dotNet\UDPServer\Client\bin\Debug\Client.pdb
+E:\dotNet\UDPServer\Client\obj\Debug\Client.exe
+E:\dotNet\UDPServer\Client\obj\Debug\Client.pdb

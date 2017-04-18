@@ -1,0 +1,6 @@
+E:\dotNet\UDPServer\UDPServer\bin\Debug\UDPServer.exe.config
+E:\dotNet\UDPServer\UDPServer\bin\Debug\UDPServer.exe
+E:\dotNet\UDPServer\UDPServer\bin\Debug\UDPServer.pdb
+E:\dotNet\UDPServer\UDPServer\obj\Debug\UDPServer.csprojResolveAssemblyReference.cache
+E:\dotNet\UDPServer\UDPServer\obj\Debug\UDPServer.exe
+E:\dotNet\UDPServer\UDPServer\obj\Debug\UDPServer.pdb

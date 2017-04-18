@@ -1,0 +1,17 @@
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.dll
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.xml
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.csprojResolveAssemblyReference.cache
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
+E:\dotNet\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Player.xnb
