@@ -70,7 +70,6 @@ namespace Morningstar.Model.Entities
             {
                 if(obstacle.isResping())
                 {
-                    world.entities.Remove(this);
                     return null;
                 }
                 shooter.addPoints(pointsForHit);

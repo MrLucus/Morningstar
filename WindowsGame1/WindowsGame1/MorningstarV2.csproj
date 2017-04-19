@@ -75,6 +75,8 @@
     <Compile Include="Controllers\Controller.cs" />
     <Compile Include="Model\Entities\Heart.cs" />
     <Compile Include="Model\World.cs" />
+    <Compile Include="Views\Addons\Label.cs" />
+    <Compile Include="Views\Addons\TextView.cs" />
     <Compile Include="Views\Animations\AnimatedEffect.cs" />
     <Compile Include="Views\Animations\BloodAnimation.cs" />
     <Compile Include="Views\Animations\DeathAnimation.cs" />
@@ -96,6 +98,7 @@
     <Compile Include="Views\BasicView.cs" />
     <Compile Include="Views\GameView.cs" />
     <Compile Include="Views\MenuView.cs" />
+    <Compile Include="Views\OptionsView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

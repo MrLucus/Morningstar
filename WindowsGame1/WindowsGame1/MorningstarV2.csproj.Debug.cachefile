@@ -23,5 +23,8 @@ Content\Animations\BLOOD.xnb
 Content\gameviewBackground.xnb
 Content\Menu\notServer.xnb
 Content\scoreboard.xnb
-Content\sounds\krotki.xnb
 Content\Heart.xnb
+Content\sounds\krotki.xnb
+Content\Menu\option.xnb
+Content\Menu\optionHighlighted.xnb
+Content\normal.xnb

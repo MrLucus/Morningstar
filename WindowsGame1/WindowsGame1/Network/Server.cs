@@ -217,6 +217,13 @@ namespace Morningstar
 
                     break;
 
+                case "PLAYER":
+                    string nickname = Convert.ToString(streamReader.ReadLine());
+
+                    player.setNick(nickname);
+
+                    break;
+
 
             }
 

@@ -42,8 +42,12 @@ namespace Morningstar.Model.Entities
         private float shootCooldown;
         private float reloadTime = 0.3f;
 
-        private string nick;
+        private string nick = "";
 
+        public void setNick(string value)
+        {
+            nick = value;
+        }
         public string Nick()
         {
             return nick;
@@ -70,7 +74,6 @@ namespace Morningstar.Model.Entities
         {
             bulletsLeft = bulletsMax;
             type = $"Player{id}";
-            nick = "rozpierdalacz";
             world = w;
             points = 0;
         }

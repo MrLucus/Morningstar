@@ -227,15 +227,6 @@
       <Time>2017-04-16T02:09:11.0177481+02:00</Time>
     </Item>
     <Item>
-      <Source>sounds\krotki.mp3</Source>
-      <Name>sounds\krotki</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sounds\krotki.xnb</Output>
-      <Time>2017-04-17T02:28:49.76582+02:00</Time>
-    </Item>
-    <Item>
       <Source>Heart.png</Source>
       <Name>Heart</Name>
       <Importer>TextureImporter</Importer>
@@ -243,6 +234,42 @@
       <Options>None</Options>
       <Output>C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Heart.xnb</Output>
       <Time>2017-04-18T00:59:11.7207439+02:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\krotki.mp3</Source>
+      <Name>sounds\krotki</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sounds\krotki.xnb</Output>
+      <Time>2017-04-18T15:19:11.0424287+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\option.png</Source>
+      <Name>Menu\option</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Menu\option.xnb</Output>
+      <Time>2017-04-05T00:21:53.0166303+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\optionHighlighted.png</Source>
+      <Name>Menu\optionHighlighted</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Menu\optionHighlighted.xnb</Output>
+      <Time>2017-04-05T00:21:53.0206305+02:00</Time>
+    </Item>
+    <Item>
+      <Source>normal.spritefont</Source>
+      <Name>normal</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\normal.xnb</Output>
+      <Time>2017-04-19T02:49:49.432848+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

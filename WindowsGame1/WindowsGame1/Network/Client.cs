@@ -182,6 +182,19 @@ namespace Morningstar
             catch (Exception e) { }
         }
 
+        public void sendAction(String nick)
+        {
+            try
+            {
+                lock (streamWriter)
+                {
+                    streamWriter.WriteLine("PLAYER");
+                    streamWriter.WriteLine(nick);
+                }
+            }
+            catch (Exception e) { }
+        }
+
 
     }
 }

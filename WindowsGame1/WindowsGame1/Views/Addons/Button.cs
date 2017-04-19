@@ -3,49 +3,22 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
+using WindowsGame1.Views.Addons;
 
 namespace Morningstar.Views.Addons
 {
-    class Button
+    class Button : Label
     {
         private MouseState presentMouse, pastMouse;
 
-        private ContentManager content;
 
-        private Texture2D textureNormal, textureHighlighted, textureCurrent;
+        private Texture2D textureHighlighted;
 
-        private Rectangle position;
 
-        public bool isActive { get; set; }
-
-        public Button(ContentManager newContent, Vector2 windowScreen, String name, int number)
+        public Button(ContentManager newContent, Vector2 windowScreen, String name, int number): base(newContent,windowScreen,name,number)
         {
-            content = newContent;
-
-            textureNormal = content.Load<Texture2D>("Menu/" + name);
             textureHighlighted = content.Load<Texture2D>("Menu/" + name + "Highlighted");
-            textureCurrent = textureNormal;
 
-            position = new Rectangle((int)windowScreen.X / 2 - textureNormal.Width / 2, (int)(windowScreen.Y * (0.2 + 0.3 * number)),
-                    textureNormal.Width, textureNormal.Height);
-
-            isVisible = true;
-            isActive = true;
-        }
-
-        public void Draw(SpriteBatch spriteBatch)
-        {
-            spriteBatch.Draw(textureCurrent, position, Color.White);
-
-        }
-
-
-        private bool isVisible;
-
-        public bool IsVisible
-        {
-            get { return isVisible; }
-            set { isVisible = value; }
         }
 
         public bool isMouseOver

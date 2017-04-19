@@ -10,7 +10,7 @@ namespace Morningstar.Views
     class MenuView : BasicView
     {
         private List<Button> buttons = new List<Button>();
-        Button bNew, bJoin, bQuit;
+        Button bNew, bJoin, bQuit, bOption;
 
 
         public MenuView(SpriteBatch s, ContentManager c, Controller cl):base(s, c, cl)
@@ -22,7 +22,9 @@ namespace Morningstar.Views
             buttons.Add(bNew);
             bJoin = new Button(content, new Vector2(backgroundImage.Width, backgroundImage.Height), "lobby", 1);
             buttons.Add(bJoin);
-            bQuit = new Button(content, new Vector2(backgroundImage.Width, backgroundImage.Height), "exit", 2);
+            bOption = new Button(content, new Vector2(backgroundImage.Width, backgroundImage.Height), "option", 2);
+            buttons.Add(bOption);
+            bQuit = new Button(content, new Vector2(backgroundImage.Width, backgroundImage.Height), "exit", 3);
             buttons.Add(bQuit);
         }
 
@@ -57,6 +59,10 @@ namespace Morningstar.Views
             if (bQuit.isLeftClicked)
             {
                 controller.quitGame();
+            }
+            if (bOption.isLeftClicked)
+            {
+                controller.options();
             }
         }
 

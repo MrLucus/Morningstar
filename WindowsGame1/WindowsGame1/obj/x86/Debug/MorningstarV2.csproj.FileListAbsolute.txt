@@ -80,3 +80,6 @@ C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\
 C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\scoreboard.xnb
 C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sounds\krotki.xnb
 C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Heart.xnb
+C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Menu\option.xnb
+C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Menu\optionHighlighted.xnb
+C:\Users\Arek\Desktop\UDPServer\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\normal.xnb

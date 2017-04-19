@@ -19,6 +19,7 @@ namespace Morningstar
 
         private Server server; //server, jeden na gre
         private Client player; //instancja klienta, jeden na gracza
+        public string nickname { get; set; }
 
         //obiekty koniecznie do wczytywania/rysowania zasobow
         private SpriteBatch spriteBatch;
@@ -27,7 +28,7 @@ namespace Morningstar
         //zmienna informujaca czy gra sie rozpoczela
         public bool isGameOn { get; set; }
 
-        enum viewKeys { MENU, GAME , BAD_JOIN};
+        enum viewKeys { MENU, GAME , BAD_JOIN, OPTIONS};
 
         private MouseState old;
         bool addBadJoin = false;
@@ -39,19 +40,20 @@ namespace Morningstar
             contentManager = c;
 
             morningstar = g;
-
+            nickname = generateNickname();
             //stworzenie listy widokow - domyslnie jej pierwszym elementem jest menuView
             views = new Dictionary<viewKeys, BasicView>();
 
             MenuView menu = new MenuView(spriteBatch, contentManager, this);
             BadLoginView badLogView = new BadLoginView(spriteBatch, contentManager, this);
             GameView gameView = new GameView(spriteBatch, contentManager, this);
-
+            OptionsView optionsView = new OptionsView(spriteBatch, contentManager, this);
             menu.isActive = true;
 
             views.Add(viewKeys.GAME, gameView);
             views.Add(viewKeys.MENU, menu);
             views.Add(viewKeys.BAD_JOIN, badLogView);
+            views.Add(viewKeys.OPTIONS, optionsView);
         }
 
         //metoda zwracajaca aktualnie aktywny widok
@@ -113,13 +115,19 @@ namespace Morningstar
                 addBadJoin = true;
                 return;
             }
-
+            player.sendAction(nickname);
             //'zamkniecie' menu
             views[viewKeys.MENU].isActive = false;
 
             //otworzenie widoku gry
             views[viewKeys.GAME].isActive = true;
             isGameOn = true;
+        }
+
+        public void options()
+        {
+            views[viewKeys.MENU].isActive = false;
+            views[viewKeys.OPTIONS].isActive = true;
         }
 
         //przetwarza zadanie z gameView, wola metode odbierajaca dane
@@ -165,6 +173,14 @@ namespace Morningstar
             }
         }
 
+        private string generateNickname()
+        {
+            Random generator = new Random();
+            string nick = "Player";
+            int id = generator.Next(0, 100);
+            nick += id.ToString();
+            return nick;
+        }
         public void sendAction(MouseState mouse)
         {
             if ((mouse.LeftButton == ButtonState.Pressed) && (old.LeftButton == ButtonState.Released))
@@ -179,6 +195,10 @@ namespace Morningstar
         public void backToMenu()
         {
             isGameOn = false;
+            foreach (var view in views)
+            {
+                view.Value.isActive = false;
+            }
             views[viewKeys.MENU].isActive = true;
         }
     }
